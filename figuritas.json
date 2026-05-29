@@ -1,0 +1,194 @@
+[
+  {
+    "Nombre": "Marcelo",
+    "Area": "Alta Gerencia",
+    "Nivel de rareza": 5,
+    "Imagen": "imgs/marcelo.png"
+  },
+  {
+    "Nombre": "Karina",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Alejandro",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Manolo",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Evelyn",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Carina",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "María Laura",
+    "Area": "Recepción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Sergio Padula",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/sergio.jpg"
+  },
+  {
+    "Nombre": "Rafael Cortes",
+    "Area": "Redacción",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/rafa.jpg"
+  },
+   {
+    "Nombre": "Carlos García Coni",
+    "Area": "Streaming",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/carlos1.png"
+  },
+   {
+    "Nombre": "Carlos Rovira",
+    "Area": "Alta Gerencia",
+    "Nivel de rareza": 5,
+    "Imagen": "imgs/rovira.jpg"
+  },
+   {
+    "Nombre": "Carlos Serenelli",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/carlos2.jpg"
+  },
+   {
+    "Nombre": "Majo",
+    "Area": "Streaming",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+   {
+    "Nombre": "Darío",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/dario.png"
+  },
+   {
+    "Nombre": "Griselda",
+    "Area": "Redacción",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/griselda.png"
+  },
+   {
+    "Nombre": "David",
+    "Area": "Redes",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/david.png"
+  },
+   {
+    "Nombre": "Tiki",
+    "Area": "Redacción",
+    "Nivel de rareza": 2,
+    "Imagen": ""
+  },
+   {
+    "Nombre": "Gustavo",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/gustavo.png"
+  },
+   {
+    "Nombre": "Rodrigo",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+   {
+    "Nombre": "Laureano",
+    "Area": "Streaming",
+    "Nivel de rareza": 2,
+    "Imagen": ""
+  },
+   {
+    "Nombre": "Laureano",
+    "Area": "Streaming",
+    "Nivel de rareza": 2,
+    "Imagen": ""
+  },
+   {
+    "Nombre": "Bicicleta del Hospital",
+    "Area": "Redacción",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/bici.png"
+  },
+   {
+    "Nombre": "El Marfeel",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/marfeel.png"
+  },
+   {
+    "Nombre": "Error 502",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/error.png"
+  },
+   {
+    "Nombre": "Emilia",
+    "Area": "RRHH",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/emilia.png"
+  },
+   {
+    "Nombre": "Casa Embrujada",
+    "Area": "Redacción",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/casa.png"
+  },
+   {
+    "Nombre": "Lucía",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Miguel Galmarini",
+    "Area": "Alta Gerencia",
+    "Nivel de rareza": 4,
+    "Imagen": "imgs/miguel.png"
+  },
+  {
+    "Nombre": "Xi Jinping",
+    "Area": "Extranjeros",
+    "Nivel de rareza": 5,
+    "Imagen": "imgs/xi.png"
+  },
+   {
+    "Nombre": "Joaquín",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": "imgs/joa.png"
+  },
+  {
+    "Nombre": "Ana",
+    "Area": "Alta Gerencia",
+    "Nivel de rareza": 4,
+    "Imagen": "imgs/ana.png"
+  },
+  {
+    "Nombre": "Romina",
+    "Area": "Soporte",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/romina.png"
+  }
+]
