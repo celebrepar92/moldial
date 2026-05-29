@@ -15,7 +15,7 @@
     "Nombre": "Alejandro",
     "Area": "Redacción",
     "Nivel de rareza": 1,
-    "Imagen": ""
+    "Imagen": "imgs/ale.jpg"
   },
   {
     "Nombre": "Manolo",
@@ -184,6 +184,30 @@
     "Area": "Alta Gerencia",
     "Nivel de rareza": 4,
     "Imagen": "imgs/ana.png"
+  },
+  {
+    "Nombre": "Daniela",
+    "Area": "Redacción",
+    "Nivel de rareza": 4,
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Cable con el que Chocaron Alejandro y Karina",
+    "Area": "Misceláneos",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/cable.png"
+  },
+  {
+    "Nombre": "Iván",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": "imgs/cable.png"
+  },
+  {
+    "Nombre": "Hamburguesa Robada por Nahuel",
+    "Area": "Misceláneos",
+    "Nivel de rareza": 3,
+    "Imagen": "imgs/hamb.png"
   },
   {
     "Nombre": "Romina",
