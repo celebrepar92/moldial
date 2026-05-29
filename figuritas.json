@@ -210,6 +210,18 @@
     "Imagen": "imgs/hamb.png"
   },
   {
+    "Nombre": "Agustín",
+    "Area": "Redes",
+    "Nivel de rareza": 1,
+    "Imagen": "imgs/agustin.jpg"
+  },
+  {
+    "Nombre": "Dana",
+    "Area": "Redes",
+    "Nivel de rareza": 1,
+    "Imagen": "imgs/dana.jpg"
+  },
+  {
     "Nombre": "Romina",
     "Area": "Soporte",
     "Nivel de rareza": 2,
