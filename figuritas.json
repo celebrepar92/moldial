@@ -188,20 +188,20 @@
   {
     "Nombre": "Daniela",
     "Area": "Redacción",
-    "Nivel de rareza": 4,
+    "Nivel de rareza": 1,
     "Imagen": ""
   },
   {
     "Nombre": "Cable con el que Chocaron Alejandro y Karina",
     "Area": "Misceláneos",
     "Nivel de rareza": 2,
-    "Imagen": "imgs/cable.png"
+    "Imagen": "imgs/cable.jpg"
   },
   {
     "Nombre": "Iván",
     "Area": "Redacción",
     "Nivel de rareza": 1,
-    "Imagen": "imgs/cable.png"
+    "Imagen": "imgs/ivan.jpg"
   },
   {
     "Nombre": "Hamburguesa Robada por Nahuel",
