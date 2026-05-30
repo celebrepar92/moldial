@@ -33,7 +33,7 @@
     "Nombre": "Carina",
     "Area": "Redacción",
     "Nivel de rareza": 1,
-    "Imagen": ""
+    "Imagen": "imgs/carina.png"
   },
   {
     "Nombre": "María Laura",
@@ -117,7 +117,7 @@
     "Nombre": "Laureano",
     "Area": "Streaming",
     "Nivel de rareza": 2,
-    "Imagen": ""
+    "Imagen": "imgs/laureano.png"
   },
    {
     "Nombre": "Laureano",
@@ -156,10 +156,34 @@
     "Imagen": "imgs/casa.png"
   },
    {
+    "Nombre": "Mara",
+    "Area": "Redes",
+    "Nivel de rareza": 1,
+    "Imagen": "imgs/mara.png"
+  },
+   {
+    "Nombre": "Jimena",
+    "Area": "Redacción",
+    "Nivel de rareza": 1,
+    "Imagen": "imgs/jime.png"
+  },
+   {
+    "Nombre": "Sebastián Peralta",
+    "Area": "Soporte",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/seba.png"
+  },
+   {
+    "Nombre": "Nuria",
+    "Area": "Comerciales",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/nuria.png"
+  },
+   {
     "Nombre": "Lucía",
     "Area": "Redacción",
     "Nivel de rareza": 1,
-    "Imagen": ""
+    "Imagen": "imgs/lucia.png"
   },
   {
     "Nombre": "Miguel Galmarini",
@@ -219,7 +243,19 @@
     "Nombre": "Dana",
     "Area": "Redes",
     "Nivel de rareza": 1,
-    "Imagen": "imgs/dana.jpg"
+    "Imagen": ""
+  },
+  {
+    "Nombre": "Fátima",
+    "Area": "Frees",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/fatima.jpg"
+  },
+  {
+    "Nombre": "Alexis",
+    "Area": "Redacción",
+    "Nivel de rareza": 2,
+    "Imagen": "imgs/alexis.jpg"
   },
   {
     "Nombre": "Romina",
