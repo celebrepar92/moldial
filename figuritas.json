@@ -9,7 +9,7 @@
     "Nombre": "Karina",
     "Area": "Redacción",
     "Nivel de rareza": 1,
-    "Imagen": ""
+    "Imagen": "imgs/kary.png"
   },
   {
     "Nombre": "Alejandro",
@@ -56,7 +56,7 @@
    {
     "Nombre": "Carlos García Coni",
     "Area": "Streaming",
-    "Nivel de rareza": 2,
+    "Nivel de rareza": 3,
     "Imagen": "imgs/carlos1.png"
   },
    {
@@ -118,12 +118,6 @@
     "Area": "Streaming",
     "Nivel de rareza": 2,
     "Imagen": "imgs/laureano.png"
-  },
-   {
-    "Nombre": "Laureano",
-    "Area": "Streaming",
-    "Nivel de rareza": 2,
-    "Imagen": ""
   },
    {
     "Nombre": "Bicicleta del Hospital",
@@ -218,13 +212,13 @@
   {
     "Nombre": "Cable con el que Chocaron Alejandro y Karina",
     "Area": "Misceláneos",
-    "Nivel de rareza": 2,
+    "Nivel de rareza": 3,
     "Imagen": "imgs/cable.jpg"
   },
   {
     "Nombre": "Iván",
     "Area": "Redacción",
-    "Nivel de rareza": 1,
+    "Nivel de rareza": 2,
     "Imagen": "imgs/ivan.jpg"
   },
   {
@@ -260,7 +254,7 @@
   {
     "Nombre": "Romina",
     "Area": "Soporte",
-    "Nivel de rareza": 2,
+    "Nivel de rareza": 3,
     "Imagen": "imgs/romina.png"
   }
 ]
