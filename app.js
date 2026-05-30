@@ -22,6 +22,7 @@ let isBulkMode = false;    // Si estamos abriendo en modo "x5"
 let bulkQueue = [];        // Cola de sobres en modo bulk
 let firstTime = true;
 let tutStep = 0;
+let initialQueueSize = 0;
 
 const sellValues   = { 1: 500, 2: 1000, 3: 1500, 4: 1800, 5: 3000 };
 const rarityNames  = { 1: "Común", 2: "Poco Común", 3: "Rara", 4: "Épica", 5: "Legendaria" };
@@ -201,10 +202,20 @@ function setupAlbum() {
         pageEl.classList.add('page');
         pageEl.style.zIndex = albumPages.length - index;
 
+        // --- CREAMOS LAS DOS CARAS DE LA PÁGINA ---
+        const pageFront = document.createElement('div');
+        pageFront.classList.add('page-side', 'page-front');
+
+        const pageBack = document.createElement('div');
+        pageBack.classList.add('page-side', 'page-back');
+        // Opcional: Podés poner un diseño de "dorso" o dejarlo en blanco texturado
+        pageBack.innerHTML = `<div class="page-back-content">MOLdial 2026</div>`; 
+
+        // --- METEMOS EL CONTENIDO EN EL FRENTE ---
         const title = document.createElement('h2');
         title.classList.add('page-title');
         title.innerText = area;
-        pageEl.appendChild(title);
+        pageFront.appendChild(title);
 
         const figuritasArea = db.filter(f => f.Area === area);
         figuritasArea.forEach((fig, fi) => {
@@ -217,8 +228,12 @@ function setupAlbum() {
             numEl.innerText = `#${(fi + 1).toString().padStart(2,'0')}`;
             stickerEl.appendChild(numEl);
 
-            pageEl.appendChild(stickerEl);
+            pageFront.appendChild(stickerEl);
         });
+
+        // Añadimos ambas caras a la página
+        pageEl.appendChild(pageFront);
+        pageEl.appendChild(pageBack);
 
         albumContainer.appendChild(pageEl);
     });
@@ -269,6 +284,7 @@ btnBuy.addEventListener('click', () => {
     if (money < 500) nearBroke = true;
 
     currentRevealQueue = buildQueue(1);
+    initialQueueSize = currentRevealQueue.length;
     playSound('buy');
 
     if (buyStreak >= 3) {
@@ -295,6 +311,7 @@ btnBuy5.addEventListener('click', () => {
 
     // En modo bulk, preparamos UNA cola grande de 25 cartas
     currentRevealQueue = buildQueue(BULK_COUNT);
+    initialQueueSize = currentRevealQueue.length;
     playSound('buy');
 
     if (buyStreak >= 3) {
@@ -420,8 +437,10 @@ function showNextCardInQueue() {
     }
 
     currentRevealedCard = currentRevealQueue[0];
-    const totalCards = currentRevealQueue.length + (isBulkMode ? (BULK_COUNT * 5 - currentRevealQueue.length) : (5 - currentRevealQueue.length));
-    const currentIdx = totalCards - currentRevealQueue.length;
+
+    const totalCards = initialQueueSize; 
+    const currentIdx = totalCards - currentRevealQueue.length + 1; 
+    
     cardsCounter.innerText = `Figurita ${currentIdx} de ${totalCards}`;
 
     updateDots(currentIdx - 1);
