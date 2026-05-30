@@ -243,13 +243,13 @@
     "Nombre": "Fátima",
     "Area": "Frees",
     "Nivel de rareza": 2,
-    "Imagen": "imgs/fatima.jpg"
+    "Imagen": "imgs/fatima.png"
   },
   {
     "Nombre": "Alexis",
     "Area": "Redacción",
     "Nivel de rareza": 2,
-    "Imagen": "imgs/alexis.jpg"
+    "Imagen": "imgs/alexis.png"
   },
   {
     "Nombre": "Romina",
